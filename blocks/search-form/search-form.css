@@ -1,0 +1,6 @@
+ .search-form {
+     display: flex;
+     /*column-gap: 40px;*/
+     justify-content: space-between;
+     align-items: end;
+ }

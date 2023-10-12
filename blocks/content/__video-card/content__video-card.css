@@ -1,0 +1,4 @@
+.content__video-card {
+    display: flex;
+    justify-content: space-between;
+}

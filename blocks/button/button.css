@@ -1,0 +1,15 @@
+.button {
+    color: #FFF;
+    text-align: center;
+    font-family: Fira Sans Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.more-button {
+    width: 399px;
+    height: 34px;
+}

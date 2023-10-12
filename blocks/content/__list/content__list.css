@@ -1,0 +1,4 @@
+.content__list {
+    overflow: scroll;
+    height: 300px;
+}

@@ -1,0 +1,32 @@
+/*.visually-hidden {*/
+/*    position: absolute; !* элемент вырывают из потока *!*/
+/*    width: 1px; !* делают элемент очень маленьким, но таким, чтобы не пропал совсем *!*/
+/*    height: 1px;*/
+/*    margin: -1px; !* элемент убирают из поля зрения, сдвинув на размер самого себя *!*/
+/*    padding: 0; !* обнуляют отступы, они есть у некоторых элементов по умолчанию *!*/
+/*    border: 0; !* убирают границу, она тоже может быть у каких-то элементов *!*/
+/*    clip: rect(0 0 0 0); !* это свойство обрезает видимую область до нулевого значения *!*/
+/*    overflow: hidden; !* на всякий случай скрывают видимое за пределами блока *!*/
+/*}*/
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+}
+
+/*input[type='checkbox']:checked + span {*/
+/*    background-image: url("http://www.w3.org/2000/svg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    background-size: contain;*/
+/*}*/
+
+/*input[type='checkbox']:focus-visible + span {*/
+/*    !* Тут задаём тень для флажков в фокусе *!*/
+/*    box-shadow: 0 0 0 5px rgb(254 175 232 / 0.5);*/
+/*}*/
