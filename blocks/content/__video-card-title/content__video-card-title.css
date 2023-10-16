@@ -1,0 +1,11 @@
+.content__video-card-title {
+    color: #FFF;
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+

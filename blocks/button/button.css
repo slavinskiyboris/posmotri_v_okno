@@ -8,6 +8,7 @@
     line-height: normal;
     background: transparent;
     border: 1px solid #fff;
+    cursor: pointer;
 }
 .more-button {
     width: 399px;
