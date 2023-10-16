@@ -14,3 +14,14 @@
     width: 399px;
     height: 34px;
 }
+button:focus {
+    outline: 1px solid white;
+    outline-offset: 1px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+.button:active {
+    background: #545050;
+}

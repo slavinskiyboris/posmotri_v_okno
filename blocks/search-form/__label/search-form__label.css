@@ -1,0 +1,8 @@
+.search-form__label {
+    width: fit-content;
+}
+
+.search-form__label:focus {
+    outline: 1px solid white;
+    outline-offset: 1px;
+}

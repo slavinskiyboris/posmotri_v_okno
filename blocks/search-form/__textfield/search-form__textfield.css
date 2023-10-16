@@ -1,0 +1,22 @@
+.search-form__textfield {
+    appearance: none;
+    color: rgba(255, 255, 255, 0.70);
+
+    font-family: Fira Sans Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    width: 225px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.search-form__textfield:active {
+    border: 1px solid #FFF;
+}
+
+.search-form__textfield:focus {
+    outline: 1px solid white;
+    outline-offset: 1px;
+}

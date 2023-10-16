@@ -1,5 +1,18 @@
 .content__list {
     overflow: scroll;
-    height: 291px;
+    height: 315px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content__list::-webkit-scrollbar {
+    width: 0;
+}
+
+.content__list:focus {
+    outline: 1px solid white;
+    outline-offset: 1px;
 }
