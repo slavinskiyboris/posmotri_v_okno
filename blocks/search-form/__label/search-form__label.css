@@ -1,8 +1,22 @@
 .search-form__label {
     width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.search-form__label:hover {
+    text-decoration: underline;
 }
 
 .search-form__label:focus {
+    outline: none;
+}
+.search-form__label:has(:focus-visible) {
     outline: 1px solid white;
     outline-offset: 1px;
+}
+.search-form__label:active {
+    text-decoration: none;
 }

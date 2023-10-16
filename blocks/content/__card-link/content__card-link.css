@@ -10,3 +10,12 @@
     outline: 1px solid white;
     outline-offset: 1px;
 }
+.content__card-link:hover {
+    text-decoration: underline;
+    color: white;
+    text-underline-position: under;
+}
+.content__card-link:active {
+    background: #545050;
+    text-decoration: none;
+}

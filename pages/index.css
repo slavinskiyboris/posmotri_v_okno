@@ -1,7 +1,7 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/error.css);
 @import url(../vendor/preloader.css);
-@import url(../vendor/style.css);
+@import url(../vendor/global.css);
 @import url(../vendor/visually-hidden.css);
 
 @import url(../blocks/button/button.css);
@@ -18,6 +18,8 @@
 @import url(../blocks/content/__card-link/content__card-link.css);
 @import url(../blocks/content/__video-card-description-container/content__video-card-description-container.css);
 
+@import url(../blocks/more-button/more-button.css);
+
 @import url(../blocks/result/result.css);
 @import url(../blocks/result/__video/result__video.css);
 @import url(../blocks/result/__video-container/result__video-container.css);
@@ -32,4 +34,4 @@
 @import url(../blocks/search-form/__label-text/search-form__label-text.css);
 @import url(../blocks/search-form/__pseudo-checkbox/search-form__pseudo-checkbox.css);
 
-@import url(../blocks/titile/titile.css);
+@import url(../blocks/title/title.css);

@@ -2,7 +2,4 @@
     display: flex;
     column-gap: 30px;
     padding: 133px 30px;
-    /*grid-template-columns: repeat(2, 1fr);*/
-    /*grid-template-rows: repeat(2, 1fr);*/
-    flex-wrap: wrap;
 }

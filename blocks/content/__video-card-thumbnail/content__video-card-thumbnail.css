@@ -1,4 +1,4 @@
 .content__video-card-thumbnail {
     width: 194px;
-    height: 103px;;
+    min-height: 103px;
 }

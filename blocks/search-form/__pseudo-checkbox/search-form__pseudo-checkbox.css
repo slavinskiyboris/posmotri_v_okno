@@ -2,13 +2,12 @@
     display: inline-block;
     width: 19px;
     height: 19px;
-    /*margin-right: 5px;*/
     vertical-align: middle;
     border: 1px solid white;
     cursor: pointer;
 }
 
-input[type='checkbox']:checked + .search-form__pseudo-checkbox {
+input[type='checkbox']:checked + .search-form__pseudo-checkbox{
     background-image: url(../../../images/Rectangle25.svg);
     background-repeat: no-repeat;
     background-position: center;

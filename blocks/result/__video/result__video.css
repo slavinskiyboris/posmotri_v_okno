@@ -1,4 +1,6 @@
 .result__video {
     width: 711px;
+    object-fit: cover;
+    object-position: center;
     height: 386px;
 }

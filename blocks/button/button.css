@@ -1,7 +1,7 @@
 .button {
     color: #FFF;
     text-align: center;
-    font-family: Fira Sans Condensed, sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -10,11 +10,10 @@
     border: 1px solid #fff;
     cursor: pointer;
 }
-.more-button {
-    width: 399px;
-    height: 34px;
-}
 button:focus {
+    outline: none;
+}
+button:focus-visible {
     outline: 1px solid white;
     outline-offset: 1px;
 }
@@ -24,4 +23,5 @@ button:focus {
 }
 .button:active {
     background: #545050;
+    text-decoration: none;
 }

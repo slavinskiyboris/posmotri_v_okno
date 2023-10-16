@@ -1,8 +1,6 @@
 .search-form__textfield {
     appearance: none;
-    color: rgba(255, 255, 255, 0.70);
-
-    font-family: Fira Sans Condensed, sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -17,6 +15,9 @@
 }
 
 .search-form__textfield:focus {
+    outline: none;
+}
+.search-form__textfield:focus-visible {
     outline: 1px solid white;
     outline-offset: 1px;
 }

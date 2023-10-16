@@ -3,9 +3,3 @@
     justify-content: space-between;
     outline: none;
 }
-
-.content__video-card:hover {
-    text-decoration: underline;
-    color: white;
-    text-underline-position: under;
-}
