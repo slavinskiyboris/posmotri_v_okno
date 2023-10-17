@@ -7,3 +7,6 @@
     line-height: normal;
     cursor: pointer;
 }
+.search-form__label:hover {
+    text-decoration: underline;
+}

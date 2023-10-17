@@ -16,6 +16,7 @@
 @import url(../blocks/content/__video-card-title/content__video-card-title.css);
 @import url(../blocks/content/__video-card-description/content__video-card-description.css);
 @import url(../blocks/content/__card-link/content__card-link.css);
+@import url(../blocks/content/__card-link/_current/content__card-link_current.css);
 @import url(../blocks/content/__video-card-description-container/content__video-card-description-container.css);
 
 @import url(../blocks/more-button/more-button.css);

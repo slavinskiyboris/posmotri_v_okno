@@ -7,4 +7,9 @@
     line-height: 30px;
     text-transform: uppercase;
     padding-bottom: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 200px;
+
 }
