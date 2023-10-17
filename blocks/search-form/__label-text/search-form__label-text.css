@@ -7,6 +7,6 @@
     line-height: normal;
     cursor: pointer;
 }
-.search-form__label:hover {
+.search-form__label-text:hover {
     text-decoration: underline;
 }
